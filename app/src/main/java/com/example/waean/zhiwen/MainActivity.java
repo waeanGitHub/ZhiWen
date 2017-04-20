@@ -77,9 +77,7 @@ public class MainActivity extends BaseActivity {
                     case R.id.nav_quit:
                         ActivityCollector.finishAll();
                         break;
-
                 }
-
                 return true;
             }
         });

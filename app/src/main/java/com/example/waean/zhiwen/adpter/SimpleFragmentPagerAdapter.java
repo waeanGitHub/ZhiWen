@@ -11,7 +11,6 @@ import com.example.waean.zhiwen.fragment.PageFragment;
 
 import java.util.ArrayList;
 import java.util.List;
-
 /**
  * Created by waean on 2017/04/11.
  */
@@ -21,7 +20,7 @@ public class SimpleFragmentPagerAdapter extends FragmentPagerAdapter {
     private List<Fragment> list;
 
 
-    final int PAGE_COUNT = 10;
+    private final int PAGE_COUNT = 10;
     private String tabTitles[] = new String[]{
             "头条", "社会", "国内", "国际", "娱乐", "体育", "军事", "科技", "财经", "时尚"
     };
@@ -65,19 +64,6 @@ public class SimpleFragmentPagerAdapter extends FragmentPagerAdapter {
     public Object instantiateItem(ViewGroup container, int position) {
         Fragment fragment = (Fragment) super.instantiateItem(container, position);
         fm.beginTransaction().show(fragment).commit();
-
-        /*
-        *
-        *
-        *
-        *
-        *
-        * */
-        /*
-        *
-        *
-        * */
-
         return fragment;
     }
 
