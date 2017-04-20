@@ -73,6 +73,10 @@ public class SimpleFragmentPagerAdapter extends FragmentPagerAdapter {
         *
         *
         * */
+        /*
+        *
+        *
+        * */
 
         return fragment;
     }
