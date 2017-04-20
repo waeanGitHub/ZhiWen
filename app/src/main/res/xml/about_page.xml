@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="版本">
+        <Preference
+            android:key="version"
+            android:summary="1.0.0"
+            android:title="Version" />
+        <Preference
+            android:key="date"
+            android:summary="2017/04/20"
+            android:title="日期" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Author">
+        <Preference
+            android:key="class"
+            android:summary="信计1301"
+            android:title="班级" />
+        <Preference
+            android:key="author"
+            android:summary="王仁恩"
+            android:title="姓名" />
+        <Preference
+            android:key="advisor"
+            android:summary="梁西银"
+            android:title="指导老师" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="相关信息">
+        <Preference
+            android:key="about_author"
+            android:summary="http//:www"
+            android:title="关于作者" />
+        <Preference
+            android:key="app_github"
+            android:summary="http//:www"
+            android:title="项目主页" />
+    </PreferenceCategory>
+
+
+</PreferenceScreen>
