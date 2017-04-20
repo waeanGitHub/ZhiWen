@@ -5,7 +5,10 @@
         <Preference
             android:key="version"
             android:summary="1.0.0"
-            android:title="Version" />
+            android:title="Version"
+
+
+            />
         <Preference
             android:key="date"
             android:summary="2017/04/20"
