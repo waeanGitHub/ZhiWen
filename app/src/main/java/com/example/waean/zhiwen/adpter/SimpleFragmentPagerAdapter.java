@@ -65,6 +65,15 @@ public class SimpleFragmentPagerAdapter extends FragmentPagerAdapter {
     public Object instantiateItem(ViewGroup container, int position) {
         Fragment fragment = (Fragment) super.instantiateItem(container, position);
         fm.beginTransaction().show(fragment).commit();
+
+        /*
+        *
+        *
+        *
+        *
+        *
+        * */
+
         return fragment;
     }
 
